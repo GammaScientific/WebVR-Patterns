@@ -12,7 +12,7 @@
 					"x": 0,
 					"z": -250
 				},
-				"widthReal": 1,
+				"widthReal": 0.1,
 				"fill": {
 					"val": 1,
 					"isFull": true
@@ -20,7 +20,7 @@
 				"geometry": {
 					"primitive": "plane",
 					"width": 0,
-					"height": 15
+					"height": 1000
 				},
 				"position": {
 					"x": 0,
@@ -59,7 +59,7 @@
 					"x": 0,
 					"z": -250
 				},
-				"widthReal": 1,
+				"widthReal": 0.1,
 				"fill": {
 					"val": 1,
 					"isFull": true
@@ -67,7 +67,7 @@
 				"geometry": {
 					"primitive": "plane",
 					"width": 0,
-					"height": 15
+					"height": 1000
 				},
 				"position": {
 					"x": 0,
