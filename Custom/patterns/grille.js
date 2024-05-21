@@ -12,10 +12,10 @@ var grille = {
 					"x": 0,
 					"z": -250
 				},
-				"numBars": 100,
+				"numBars": 500,
 				"childGeometry": {
 					"primitive": "plane",
-					"width": 10,
+					"width": 2,
 					"height": 450
 				},
 				"color2": {
