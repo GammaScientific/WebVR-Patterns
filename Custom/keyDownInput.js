@@ -1,25 +1,3 @@
-//client for websocket 5/29/2024
-const ws = new WebSocket('ws://192.168.99.109:7890/KeyInput');
-
-ws.addEventListener('open',(event) =>{
-    console.log('connected to the server');
-});
-
-ws.addEventListener('message',(event) =>{
-    console.log('Message from the server: ', event.data);
-    handleKeydownEvent(event.data);
-})
-
-ws.addEventListener('close',(event)=>{
-    console.log('Disconnected from the server');
-})
-
-// Function to handle keydown event
-function handleKeydownEvent(data){
-    const event = new KeyboardEvent('keydown',{key:data});
-    document.dispatchEvent(event);
-}
-
 /* 2/21/2024 Display the scene with keyboard input*/
 document.addEventListener("keydown",(event)=>{
     console.log(event)
