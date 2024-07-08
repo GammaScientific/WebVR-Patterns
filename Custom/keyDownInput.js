@@ -1,5 +1,5 @@
 //client for websocket 5/29/2024
-const ws = new WebSocket('ws://192.168.99.109:443/KeyInput');
+const ws = new WebSocket('ws://192.168.99.109:7890/KeyInput');
 
 ws.addEventListener('open',(event) =>{
     console.log('connected to the server');
